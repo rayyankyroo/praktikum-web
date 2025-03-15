@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, #1e3c72, #2a5298, #ffcc00, #ff6600);
+    background: linear-gradient(45deg, #0a5df7, #9500ec, #13ca75, #ec069b);
     background-size: 400% 400%;
     animation: backgroundAnimation 10s infinite ease-in-out;
     color: white;
@@ -17,7 +17,7 @@ body {
     overflow: hidden;
 }
 .card {
-    background: rgba(0, 0, 0, 0.8);
+    background: linear-gradient(45deg, #000000, #6603a4, #6610fa);
     backdrop-filter: blur(10px);
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
@@ -33,11 +33,11 @@ body {
 .btn-outline-primary {
     transition: 0.3s;
     font-weight: bold;
-    border: 2px solid #ffcc00;
-    color: #ffcc00;
+    border: 2px solid #d209fa;
+    color: #d3c7fb;
 }
 .btn-outline-primary:hover {
-    background-color: #ffcc00;
+    background-color: #13ca75;
     color: black;
     font-weight: bold;
     box-shadow: 0 0 15px #ffcc00;
